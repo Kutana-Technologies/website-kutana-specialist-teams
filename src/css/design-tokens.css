@@ -1,0 +1,63 @@
+:root {
+  /* Colors */
+  --color-background: #0A0E19;
+  --color-foreground: #F8FAFC;
+  --color-primary: #E4A439;
+  --color-primary-foreground: #0A0E19;
+  --color-secondary: #476EB0;
+  --color-secondary-foreground: #F8FAFC;
+  --color-muted: #1E293B;
+  --color-muted-foreground: #94A3B8;
+  --color-accent: #476EB0;
+  --color-accent-foreground: #F8FAFC;
+  --color-destructive: #C14F4A;
+  --color-chart-1: #E4A439;
+  --color-chart-2: #476EB0;
+  --color-chart-3: #6DA36F;
+  --color-chart-4: #C14F4A;
+  --color-chart-5: #94A3B8;
+  --color-card: #0F172A;
+  --color-card-foreground: #F8FAFC;
+  --color-border: #1E293B;
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  /* Spacing (8px system) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+  --space-40: 10rem;
+
+  /* Border radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 500ms ease;
+
+  /* Shadows */
+  --shadow-primary: 0 10px 30px rgba(228, 164, 57, 0.3);
+  --shadow-primary-hover: 0 15px 40px rgba(228, 164, 57, 0.5);
+  --shadow-card: 0 10px 30px rgba(10, 14, 25, 0.8);
+  --shadow-glow: 0 0 50px rgba(71, 110, 176, 0.05);
+
+  /* Layout */
+  --max-width: 80rem;
+  --nav-height: 6rem;
+}
