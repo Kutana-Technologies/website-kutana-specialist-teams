@@ -20,6 +20,27 @@
   --color-card-foreground: #F8FAFC;
   --color-border: #1E293B;
 
+  /* Light theme overrides */
+  --color-background-lt: #F8FAFC;
+  --color-foreground-lt: #0A0E19;
+  --color-primary-lt: #C48A20;
+  --color-primary-foreground-lt: #FFFFFF;
+  --color-secondary-lt: #3B5998;
+  --color-secondary-foreground-lt: #FFFFFF;
+  --color-muted-lt: #E2E8F0;
+  --color-muted-foreground-lt: #475569;
+  --color-accent-lt: #3B5998;
+  --color-accent-foreground-lt: #FFFFFF;
+  --color-destructive-lt: #B5423D;
+  --color-chart-1-lt: #C48A20;
+  --color-chart-2-lt: #3B5998;
+  --color-chart-3-lt: #4E8A50;
+  --color-chart-4-lt: #B5423D;
+  --color-chart-5-lt: #64748B;
+  --color-card-lt: #FFFFFF;
+  --color-card-foreground-lt: #0A0E19;
+  --color-border-lt: #CBD5E1;
+
   /* Typography */
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
   --font-heading: "Playfair Display", Georgia, serif;

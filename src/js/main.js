@@ -1,3 +1,26 @@
+// Theme toggle
+function initThemeToggle() {
+  const toggleBtns = document.querySelectorAll('[data-theme-toggle]');
+  const html = document.documentElement;
+
+  function updateIcon(btn) {
+    const isDark = html.getAttribute('data-theme') !== 'light';
+    btn.innerHTML = isDark ? '&#9789;' : '&#9788;';
+    btn.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+  }
+
+  toggleBtns.forEach(btn => {
+    updateIcon(btn);
+    btn.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme') || 'dark';
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('kutana-theme', next);
+      toggleBtns.forEach(updateIcon);
+    });
+  });
+}
+
 // Mobile menu toggle
 function initMobileMenu() {
   const menuBtn = document.querySelector('[data-menu-open]');
@@ -89,6 +112,7 @@ function initActiveNav() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  initThemeToggle();
   initMobileMenu();
   initFAQ();
   initScrollAnimations();
